@@ -9,7 +9,6 @@ body, h1, h2, p, ul, li, a {
 /* ベーススタイル */
 body {
   font-family: Arial, sans-serif;
-  color: #000080; /* ダークブルー */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -49,4 +48,15 @@ header {
   border-radius: 50px;
   border: 1px solid black;
   font-size: 2em;
+  cursor: pointer;
+}
+
+.contents-select:hover {
+  background-color: #add8e6;
+}
+
+
+.contents-select.read {
+  background-color: #d3d3d3;
+  color: gray;
 }
