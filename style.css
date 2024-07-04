@@ -21,3 +21,32 @@ header {
   width: 100vw;
   background-color: gray;
 }
+
+.wrapper-select {
+  background-color: #effbff;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-select {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contents-select {
+  color: black;
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 2em;
+}
