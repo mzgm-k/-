@@ -21,3 +21,69 @@ header {
   width: 100vw;
   background-color: gray;
 }
+.top-body{
+  height: auto;
+  width: 390px;
+  margin: auto;
+ }
+ .top-header{
+  height: 130px;
+  width: 390px;
+  background-color: #81B6E6;
+ }
+ .top-back{
+  background-color: #EFFBFF;
+  height: 714px;
+  width: 390px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+ }
+ .top-business{
+  height: 110px;
+  width: 350px;
+  background-color: #ffffff;
+  border: solid 5px #FFC1C1;
+  border-radius: 28px;
+  margin-top: 50px;
+ }
+ .top-html{
+  height: 110px;
+  width: 350px;
+  background-color: #ffffff;
+  border: solid 5px #A8A1FC;
+  border-radius: 28px;
+  margin-top: 10px;
+ }
+ .top-css{
+  height: 110px;
+  width: 350px;
+  background-color: #ffffff;
+  border: solid 5px #EEEF94;
+  border-radius: 28px;
+  margin-top: 10px;
+ }
+ .top-java{
+  height: 110px;
+  width: 350px;
+  background-color: #ffffff;
+  border: solid 5px #8EDB88;
+  border-radius: 28px;
+  margin-top: 10px;
+ }
+ .top-ruby{
+  height: 110px;
+  width: 350px;
+  background-color: #ffffff;
+  border: solid 5px #9D9A9A;
+  border-radius: 28px;
+  margin-top: 10px;
+ }
+ .top-link{
+  font-size: 36px;
+  text-align: center;
+ }
+ .top-a{
+  color: #000;
+  text-decoration-line: none;
+ }
