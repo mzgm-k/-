@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     content.addEventListener("click", function() {
       if (!this.classList.contains("read")) {
         this.classList.add("read");
-        this.innerHTML += " (既読)";
+        this.innerHTML += " (済)";
       }
     });
   });
