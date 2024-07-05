@@ -13,18 +13,32 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
+  overflow: hidden; 
 }
 
 header {
   height: 116px;
   width: 100vw;
-  background-color: gray;
+  background-color: #81B6E6;
+}
+
+footer {
+  height: 50px;
+  width: 100vw;
+  background-color: #81B6E6;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .wrapper-select {
   background-color: #effbff;
-  height: 100vh;
+  height: calc(100vh - 166px); 
   width: 100%;
+  overflow-y: auto;
+  position: absolute;
+  top: 116px; 
+  left: 0;
 }
 
 .main-select {
@@ -49,6 +63,7 @@ header {
   border: 1px solid black;
   font-size: 2em;
   cursor: pointer;
+  margin: 10px;
 }
 
 .contents-select:hover {
