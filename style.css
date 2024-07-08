@@ -34,7 +34,7 @@ footer {
 .wrapper-select {
   background-color: #effbff;
   height: calc(100vh - 166px); 
-  width: 100%;
+  width: 100vw;
   overflow-y: auto;
   position: absolute;
   top: 116px; 
@@ -64,6 +64,7 @@ footer {
   font-size: 2em;
   cursor: pointer;
   margin: 10px;
+  text-decoration: none;
 }
 
 .contents-select:hover {
