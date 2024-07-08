@@ -23,7 +23,7 @@ header {
 
 .top-body{
   height: auto;
-  width: 390px;
+  width: auto;
   margin: auto;
  }
  .top-header{
@@ -87,7 +87,6 @@ header {
   color: #000;
   text-decoration-line: none;
  }
-=======
 
 .wrapper-select {
   background-color: #effbff;
