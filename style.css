@@ -86,6 +86,12 @@ footer {
   text-align: center;
   margin-top: 30px;
  }
+
+ .format-button{
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+ }
 }
 /* PC用のCSS*/
  @media screen and (min-width: 768px) {
@@ -133,6 +139,12 @@ footer {
     font-size: 56px;
     text-align: center;
     margin-top: 20px;
+   }
+
+   .format-button{
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
    }
  }
  
@@ -188,3 +200,26 @@ footer {
 }
 
 
+/* 
+出題形式選択画面
+*/
+.format-main{
+  height: 100vh; 
+  background-color: #EFF8FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.format-button{
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.format-button:hover {
+  background-color: #f0f0f0;
+}
