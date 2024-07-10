@@ -87,11 +87,6 @@ footer {
   margin-top: 30px;
  }
 
- .format-button{
-  height: 200px;
-  width: 200px;
-  font-size: 20px;
- }
 }
 /* PC用のCSS*/
  @media screen and (min-width: 768px) {
@@ -141,11 +136,6 @@ footer {
     margin-top: 20px;
    }
 
-   .format-button{
-    height: 300px;
-    width: 300px;
-    font-size: 30px;
-   }
  }
  
  .top-a{
@@ -204,7 +194,8 @@ footer {
 出題形式選択画面
 */
 .format-main{
-  height: 100vh; 
+  height: 100%;
+  width: 100%; 
   background-color: #EFF8FF;
   display: flex;
   flex-direction: column;
@@ -217,7 +208,10 @@ footer {
   border: none;
   text-align: center;
   font-weight: bold;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
 }
 
 .format-button:hover {
