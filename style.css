@@ -13,16 +13,20 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  overflow: hidden; 
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 116px;
   width: 100vw;
   background-color: #81B6E6;
+  z-index: 100;
 }
 
 footer {
+  display: none;
   height: 50px;
   width: 100vw;
   background-color: #81B6E6;
