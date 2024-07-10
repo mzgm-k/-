@@ -31,7 +31,7 @@ footer {
   left: 0;
 }
 /* スマホ画面用のCSS*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 690px) {
 .top-back{
   background-color: #EFFBFF;
   height: 430px;
@@ -42,16 +42,20 @@ footer {
 }
 .top-back2{
   background-color: #EFFBFF;
-  height: 284px;
+  height: 250px;
   width: auto;
   margin-top: -30px;
   display: flex;
   align-items: center;
   flex-flow: column;
 }
+.top-main{
+  padding: 30px;
+  background-color: #EFFBFF;
+}
 .top-business{
   height: 100px;
-  width: 350px;
+  width: 55vw;
   background-color: #ffffff;
   border: solid 5px #FFC1C1;
   border-radius: 28px;
@@ -59,7 +63,7 @@ footer {
 }
 .top-html{
   height: 100px;
-  width: 350px;
+  width: 55vw;
   background-color: #ffffff;
   border: solid 5px #A8A1FC;
   border-radius: 28px;
@@ -67,7 +71,7 @@ footer {
 }
 .top-css{
   height: 100px;
-  width: 350px;
+  width: 55vw;
   background-color: #ffffff;
   border: solid 5px #EEEF94;
   border-radius: 28px;
@@ -75,7 +79,7 @@ footer {
 }
 .top-java{
   height: 100px;
-  width: 350px;
+  width: 55vw;
   background-color: #ffffff;
   border: solid 5px #8EDB88;
   border-radius: 28px;
@@ -83,24 +87,36 @@ footer {
 }
 .top-ruby{
   height: 100px;
-  width: 350px;
+  width: 55vw;
   background-color: #ffffff;
   border: solid 5px #9D9A9A;
   border-radius: 28px;
   margin-top: 10px;
 }
 .top-link{
-  font-size: 36px;
+  font-size: 6vw;
   text-align: center;
   margin-top: 30px;
 }
+.top-a{
+  color: #000;
+  text-decoration-line: none;
+}
+.top-b{
+  color: #000;
+  text-decoration-line: none;
+}
+.top-c{
+  color: #000;
+  text-decoration-line: none;
+}
 }
 /* PC画面用のCSS*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 690px) {
 .top-back{
   background-color: #EFFBFF;
-  height: 357px;
-  width: 100vw;
+  height: 290px;
+  width: 100%;
   display: flex;
   align-items:center;
   justify-content: space-around;
@@ -108,63 +124,91 @@ footer {
 .top-back2{
   background-color: #EFFBFF;
   height: 357px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items:center;
   justify-content:space-around;
 }
+.top-main{
+  padding: 30px;
+  background-color: #EFFBFF;
+}
 .top-business{
-  height: 210px;
-  width: 550px;
+  height: 150px;
+  width: 23vw;
   background-color: #ffffff;
   border: solid 5px #FFC1C1;
   border-radius: 28px;
-  margin-top: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-html{
-  height: 210px;
-  width: 550px;
+  height: 150px;
+  width: 23vw;
   background-color: #ffffff;
   border: solid 5px #A8A1FC;
   border-radius: 28px;
-  margin-top: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-css{
-  height: 210px;
-  width:550px;
+  height: 150px;
+  width: 23vw;
   background-color: #ffffff;
   border: solid 5px #EEEF94;
   border-radius: 28px;
-  margin-top: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-java{
-  height: 210px;
-  width: 550px;
+  height: 150px;
+  width: 23vw;
   background-color: #ffffff;
   border: solid 5px #8EDB88;
   border-radius: 28px;
-  margin-top: 10px;
-  margin-left: 15%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-ruby{
-  height: 210px;
-  width: 550px;
+  height: 150px;
+  width: 23vw;
   background-color: #ffffff;
   border: solid 5px #9D9A9A;
   border-radius: 28px;
-  margin-top: 10px;
-  margin-right: 15%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-link{
-  font-size: 66px;
+  font-size: 3vw;
   text-align: center;
-  margin-top: 70px;
 }
-}
- 
 .top-a{
   color: #000;
   text-decoration-line: none;
+}
+.top-b{
+  color: #000;
+  text-decoration-line: none;
+  margin-left: 15%;
+}
+.top-c{
+  color: #000;
+  text-decoration-line: none;
+  margin-right: 15%;
+}
 }
 
 .wrapper-select {
