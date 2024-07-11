@@ -35,7 +35,10 @@ footer {
   left: 0;
 }
 /* スマホ画面用のCSS*/
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 768px) {
+.top-body{
+  overflow: hidden;
+}
 .top-back{
   background-color: #EFFBFF;
   height: 430px;
@@ -48,7 +51,7 @@ footer {
   background-color: #EFFBFF;
   height: 250px;
   width: auto;
-  margin-top: -30px;
+  margin-top: -15px;
   display: flex;
   align-items: center;
   flex-flow: column;
@@ -56,9 +59,10 @@ footer {
 .top-main{
   padding: 30px;
   background-color: #EFFBFF;
+  margin-top: 116px;
 }
 .top-business{
-  height: 100px;
+  height: 105px;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #FFC1C1;
@@ -66,7 +70,7 @@ footer {
   margin-top: 50px;
 }
 .top-html{
-  height: 100px;
+  height: 105px;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #A8A1FC;
@@ -74,7 +78,7 @@ footer {
   margin-top: 10px;
 }
 .top-css{
-  height: 100px;
+  height: 105px;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #EEEF94;
@@ -82,7 +86,7 @@ footer {
   margin-top: 10px;
 }
 .top-java{
-  height: 100px;
+  height: 105px;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #8EDB88;
@@ -90,7 +94,7 @@ footer {
   margin-top: 10px;
 }
 .top-ruby{
-  height: 100px;
+  height: 105px;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #9D9A9A;
@@ -116,7 +120,10 @@ footer {
 }
 }
 /* PC画面用のCSS*/
-@media screen and (min-width: 690px) {
+@media screen and (min-width: 769px) {
+.top-body{
+  overflow: hidden;
+}
 .top-back{
   background-color: #EFFBFF;
   height: 290px;
@@ -136,6 +143,7 @@ footer {
 .top-main{
   padding: 30px;
   background-color: #EFFBFF;
+  margin-top: 116px;
 }
 .top-business{
   height: 150px;
