@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プログラミングクイズアプリ</title>
+    <link rel="stylesheet" href="question.page.css">
+</head>
+<body>
+  <header>header</header>
+  <div class="wrapper-select">
+    <div id="quiz-container">
+      <div id="question-container">
+        <div class="question-statement">
+          <p id="question">ここに問題文が表示されます</p>
+        </div>
+        <div id="options">
+          <button class="option" onclick="selectOption(0)">選択肢1</button>
+          <button class="option" onclick="selectOption(1)">選択肢2</button>
+          <button class="option" onclick="selectOption(2)">選択肢3</button>
+          <button class="option" onclick="selectOption(3)">選択肢4</button>
+        </div>
+        <div class="answer-button-container">
+          <button id="answer-button">回答</button>
+        </div>
+        <div class="correctness_decision" id="result">
+          <!--正解or不正解-->〇or✕
+        </div>
+        <div class="explanations" id="explanation1">
+          解説文1
+        </div>
+        <div class="explanations" id="explanation2">
+          解説文2
+        </div>
+        <div class="explanations" id="explanation3">
+          解説文3
+        </div>
+        <div class="explanations" id="explanation4">
+          解説文4
+        </div>
+        <div id="navigation">
+            <button>前の問題に戻る</button>
+            <button>次の問題に進む</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>footer</footer>
+  <!--div id="overlay"--><!--/div-->
+  <script src="correctness_decision.js"></script>
+</body>
+</html>
