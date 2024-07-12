@@ -13,13 +13,16 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  overflow: hidden; 
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 116px;
   width: 100vw;
   background-color: #81B6E6;
+  z-index: 100;
 }
 
 footer {
@@ -201,6 +204,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 116px;
 }
 
 .format-body{
@@ -213,7 +217,7 @@ footer {
   border: none;
   text-align: center;
   font-weight: bold;
-  margin: 2rem auto;
+  margin: auto;
   height: 250px;
   width: 250px;
   font-size: 20px;
