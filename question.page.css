@@ -29,11 +29,12 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
+  display: none;
 }
 
 .wrapper-select {
   background-color: #effbff;
-  height: calc(100vh - 166px);
+  height: calc(100vh - 116px);
   width: 100vw;
   overflow-y: auto;
   position: absolute;
