@@ -194,12 +194,17 @@ footer {
 出題形式選択画面
 */
 .format-main{
-  height: 100%;
+  height: calc(100% - 116px);
   width: 100%; 
   background-color: #EFF8FF;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.format-body{
+  overflow: hidden;
 }
 
 .format-button{
@@ -209,8 +214,8 @@ footer {
   text-align: center;
   font-weight: bold;
   margin: 2rem auto;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   font-size: 20px;
 }
 
