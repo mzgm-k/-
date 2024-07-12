@@ -38,20 +38,18 @@ footer {
 @media screen and (max-width: 768px) {
 .top-body{
   overflow: hidden;
+  height: auto;background-color: #EFFBFF;
 }
 .top-back{
-  background-color: #EFFBFF;
-  height: 430px;
+  height: auto;
   width: auto;
   display: flex;
   align-items: center;
   flex-flow: column;
 }
 .top-back2{
-  background-color: #EFFBFF;
-  height: 250px;
+  height: auto;
   width: auto;
-  margin-top: -15px;
   display: flex;
   align-items: center;
   flex-flow: column;
@@ -67,7 +65,7 @@ footer {
   background-color: #ffffff;
   border: solid 5px #FFC1C1;
   border-radius: 28px;
-  margin-top: 50px;
+  margin-top: 5vh;
 }
 .top-html{
   height: 105px;
@@ -76,6 +74,7 @@ footer {
   border: solid 5px #A8A1FC;
   border-radius: 28px;
   margin-top: 10px;
+  margin-top: 3vh;
 }
 .top-css{
   height: 105px;
@@ -83,7 +82,7 @@ footer {
   background-color: #ffffff;
   border: solid 5px #EEEF94;
   border-radius: 28px;
-  margin-top: 10px;
+  margin-top: 3vh;
 }
 .top-java{
   height: 105px;
@@ -91,7 +90,7 @@ footer {
   background-color: #ffffff;
   border: solid 5px #8EDB88;
   border-radius: 28px;
-  margin-top: 10px;
+  margin-top: 3vh;
 }
 .top-ruby{
   height: 105px;
@@ -99,7 +98,7 @@ footer {
   background-color: #ffffff;
   border: solid 5px #9D9A9A;
   border-radius: 28px;
-  margin-top: 10px;
+  margin-top: 3vh;
 }
 .top-link{
   font-size: 6vw;
@@ -123,6 +122,8 @@ footer {
 @media screen and (min-width: 769px) {
 .top-body{
   overflow: hidden;
+  background-color: #EFFBFF;
+  padding-top: 100px;
 }
 .top-back{
   background-color: #EFFBFF;
