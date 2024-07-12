@@ -90,6 +90,7 @@ footer {
   text-align: center;
   margin-top: 30px;
  }
+
 }
 /* PC用のCSS*/
  @media screen and (min-width: 768px) {
@@ -138,6 +139,7 @@ footer {
     text-align: center;
     margin-top: 20px;
    }
+
  }
  
  .top-a{
@@ -192,3 +194,36 @@ footer {
 }
 
 
+/* 
+出題形式選択画面
+*/
+.format-main{
+  height: calc(100% - 116px);
+  width: 100%; 
+  background-color: #EFF8FF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 116px;
+}
+
+.format-body{
+  overflow: hidden;
+}
+
+.format-button{
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.format-button:hover {
+  background-color: #f0f0f0;
+}
