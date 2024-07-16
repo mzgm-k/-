@@ -65,7 +65,7 @@ footer {
   align-items: center;
 }
 .top-business{
-  height: 105px;
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #FFC1C1;
@@ -76,7 +76,7 @@ footer {
   align-items: center;
 }
 .top-html{
-  height: 105px;
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #A8A1FC;
@@ -99,7 +99,7 @@ footer {
   align-items: center;
 }
 .top-java{
-  height: 105px;
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #8EDB88;
