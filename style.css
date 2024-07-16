@@ -221,7 +221,6 @@ footer {
     text-decoration-line: none;
     margin-right: 15%;
   }
-=======
 .top-body{
   overflow: hidden;
   height: auto;background-color: #EFFBFF;
@@ -247,6 +246,15 @@ footer {
 }
 .top-business{
   height: 105px;
+
+  height: calc(100% - 116px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-business{
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #FFC1C1;
@@ -255,6 +263,12 @@ footer {
 }
 .top-html{
   height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-html{
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #A8A1FC;
@@ -264,6 +278,12 @@ footer {
 }
 .top-css{
   height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-css{
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #EEEF94;
@@ -272,6 +292,12 @@ footer {
 }
 .top-java{
   height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-java{
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #8EDB88;
@@ -280,11 +306,20 @@ footer {
 }
 .top-ruby{
   height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-ruby{
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #9D9A9A;
   border-radius: 28px;
   margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .top-link{
   font-size: 6vw;
@@ -294,7 +329,6 @@ footer {
 .top-a{
   color: #000;
   text-decoration-line: none;
->>>>>>> be9cd13365f9872451ac91fa3ec0134860dbd04a
 }
 .top-b{
   color: #000;
@@ -304,6 +338,119 @@ footer {
   color: #000;
   text-decoration-line: none;
 }
+}
+/* PC画面用のCSS*/
+@media screen and (min-width: 769px) {
+.top-body{
+  overflow: hidden;
+  background-color: #EFFBFF;
+  padding-top: 100px;
+}
+.top-back{
+  background-color: #EFFBFF;
+  height: 290px;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+}
+.top-back2{
+  background-color: #EFFBFF;
+  height: 357px;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+}
+.top-main{
+  padding: 30px;
+  background-color: #EFFBFF;
+  margin-top: 116px;
+}
+.top-business{
+  height: 150px;
+  width: 23vw;
+  background-color: #ffffff;
+  border: solid 5px #FFC1C1;
+  border-radius: 28px;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-html{
+  height: 150px;
+  width: 23vw;
+  background-color: #ffffff;
+  border: solid 5px #A8A1FC;
+  border-radius: 28px;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-css{
+  height: 150px;
+  width: 23vw;
+  background-color: #ffffff;
+  border: solid 5px #EEEF94;
+  border-radius: 28px;
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-java{
+  height: 150px;
+  width: 23vw;
+  background-color: #ffffff;
+  border: solid 5px #8EDB88;
+  border-radius: 28px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-ruby{
+  height: 150px;
+  width: 23vw;
+  background-color: #ffffff;
+  border: solid 5px #9D9A9A;
+  border-radius: 28px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-link{
+  font-size: 3vw;
+  text-align: center;
+}
+.top-a{
+  color: #000;
+  text-decoration-line: none;
+}
+.top-b{
+  color: #000;
+  text-decoration-line: none;
+  margin-left: 15%;
+}
+.top-c{
+  color: #000;
+  text-decoration-line: none;
+  margin-right: 15%;
+}
+}
+.top-b{
+  color: #000;
+  text-decoration-line: none;
+}
+.top-c{
+  color: #000;
+  text-decoration-line: none;
 }
 /* PC画面用のCSS*/
 @media screen and (min-width: 769px) {
