@@ -58,6 +58,11 @@ footer {
   padding: 30px;
   background-color: #EFFBFF;
   margin-top: 116px;
+  height: calc(100% - 116px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .top-business{
   height: 105px;
@@ -77,7 +82,7 @@ footer {
   margin-top: 3vh;
 }
 .top-css{
-  height: 105px;
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #EEEF94;
@@ -91,19 +96,24 @@ footer {
   border: solid 5px #8EDB88;
   border-radius: 28px;
   margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .top-ruby{
-  height: 105px;
+  height: 11vh;
   width: 55vw;
   background-color: #ffffff;
   border: solid 5px #9D9A9A;
   border-radius: 28px;
   margin-top: 3vh;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 .top-link{
   font-size: 6vw;
   text-align: center;
-  margin-top: 30px;
 }
 .top-a{
   color: #000;
