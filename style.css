@@ -58,6 +58,12 @@ footer {
     padding: 30px;
     background-color: #EFFBFF;
     margin-top: 116px;
+    margin-top: 116px;
+    height: calc(100% - 116px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .top-business{
     height: 105px;
