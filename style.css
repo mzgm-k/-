@@ -559,4 +559,40 @@ footer {
   margin-bottom: 30px;
 }
 
+#quiz-explanation {
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.quiz-explanation-content{
+  margin: 0 auto;
+  width: 80%; /* ボックスの横幅を指定する */
+  height: auto; /* ボックスの高さを指定する */
+  margin-top: 20px;
+  padding: 5px; /* ボックス内左側の余白を指定する */
+  color: white; /* フォントの色を指定 */
+  text-align: center; /* テキストのセンタリングを指定する */
+  background-color: #007BFF;
+  border-radius: 5px; /* 角丸を指定する */
+  word-break: break-all;
+}
+
+.quiz-explanation-content div {
+  padding: 7px;
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  background-color: #4fa4ff;
+}
+
+.quiz-explanation-reference {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px; /* ボックス内左側の余白を指定する */
+  color: rgb(35, 35, 37); 
+  text-align: center; /* テキストのセンタリングを指定する */
+  word-break: break-all;
+  font-size: 12px;
+}
+
 }
