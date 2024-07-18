@@ -489,4 +489,12 @@ footer {
   .format-button {
     margin: 70px;
   }
+.quiz-main {
+  height: calc(100% - 116px);
+  width: 100%;
+  background-color: #EFFBFF;
+  margin-top: 116px;
+  padding-top: 30px;
+}
+
 }
