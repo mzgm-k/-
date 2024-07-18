@@ -489,6 +489,13 @@ footer {
   .format-button {
     margin: 70px;
   }
+}
+
+/* 出題ページ */
+.quiz-body {
+  overflow: hidden;
+}
+
 .quiz-main {
   height: calc(100% - 116px);
   width: 100%;
