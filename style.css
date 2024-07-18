@@ -15,6 +15,11 @@ body {
   height: 100vh;
 }
 
+/* Navbar & Navmenu color */
+:root {
+  --background-navbar: rgba(129, 182, 230, 0.8);
+}
+
 header {
   position: fixed;
   top: 0;
@@ -23,6 +28,158 @@ header {
   width: 100vw;
   background-color: #81B6E6;
   z-index: 100;
+  display: flex;
+  justify-content: right;
+}
+
+/* Nav items */
+.menu {
+  list-style: none;
+  position: absolute;
+  width: 40%;
+  height: auto;
+  top: 0;
+  margin-top: 112px;
+  padding: 0 0 10px 0;
+  clear: both;
+  background: var(--background-navbar);
+  transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+  transform: scale(1, 0);
+  transform-origin: top;
+}
+
+/* Hamburger menu button */
+.menu-btn:checked ~ .menu {
+  transform: scale(1, 1);
+  transform-origin: top;
+  transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+
+/* Hamburger menbu text */
+.menu a {
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 3vw;
+  text-transform: capitalize;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.menu li {
+  border-top: 1px solid rgb(255, 255, 255);
+  text-align: right;
+  padding: 15px 0;
+  margin: 0 54px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.menu-btn:checked ~ .menu a,
+.menu-btn:checked ~ .menu li {
+  opacity: 1;
+  transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.2s;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu-icon {
+  display: inline-block;
+  position: absolute; 
+  cursor: pointer;
+  padding: 48px;
+  -webkit-tap-highlight-color: rgb(255, 255, 255);
+  right: 20px; 
+  margin-top: 14px;
+}
+
+.navicon {
+  background: #ffffff;
+  display: block;
+  height: 3px;
+  width: 56px;
+  position: relative;
+  transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+
+.navicon:before,
+.navicon:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #ffffff;
+  transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+
+.navicon:before {
+  top: 19px;
+}
+
+.navicon:after {
+  bottom: 19px;
+}
+
+/* Hamburger Menu Animation Start */
+.menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before {
+  top: 0;
+}
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  bottom: 0;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon {
+  background: rgb(255, 255, 255);
+  transition: 0.2192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+/* Hamburger Menu Animation End */
+
+/* Navbar Container */
+.navtext-container {
+  width: 100%;
+  height: 52px;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  padding-left: 7vw;
+}
+
+/* Navbar Text */
+.navtext {
+  position: absolute;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 4px;
+  font-size: 4vw;
+  margin-top: 80px;
+}
+.top-business2{
+  color: #ff6767;
+}
+.top-html2{
+  color: #4c3cff;
+}
+.top-css2{
+  color: #fdff71;
+}
+.top-java2{
+  color: #acffa7;
+}
+.top-ruby2{
+  color: #626262;
 }
 
 footer {
