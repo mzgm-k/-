@@ -13,6 +13,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
+  background-color: #EFFBFF;
 }
 
 /* Navbar & Navmenu color */
@@ -557,6 +558,41 @@ footer {
   border-radius: 50px;
   font-size: 16px;
   margin-bottom: 30px;
+}
+
+#quiz-result {
+  display: none;
+  text-align: center;
+}
+
+.quiz_correct_answer {
+  background-color: #d3d3d3;
+  width: 80%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  font-size: 262px; /* 大きな文字サイズ */
+  text-align: center;
+  margin: 0 auto;
+  color: red;
+}
+
+.quiz_incorrect_answer {
+  background-color: #d3d3d3;
+  width: 80%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  font-size: 200px; /* 大きな文字サイズ */
+  text-align: center;
+  margin: 0 auto;
+  color: blue;
 }
 
 #quiz-explanation {
