@@ -23,15 +23,18 @@ function displayQuestion() {
   const currentQuestion = quizData[currentQuestionIndex];
   document.getElementById("question").innerText = currentQuestion.question;
   const options = document.getElementsByClassName("option");
+
   for (let i = 0; i < options.length; i++) {
     options[i].innerText = currentQuestion.options[i];
     options[i].classList.remove("selected");
   }
+  
   document.getElementById("result").style.display = "none";
   const explanations = document.getElementsByClassName("explanations");
   for (let i = 0; i < explanations.length; i++) {
     explanations[i].style.display = "none";
   }
+
   document.getElementById("overlay").style.display = "none"; // オーバーレイを隠す
 }
 
