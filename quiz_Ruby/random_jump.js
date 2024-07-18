@@ -1,29 +1,10 @@
-var javascript = new Array(
+const ruby = new Array(
     "#",
     "#"
-);
-
-var html = new Array(
-    "#",
-    "#"
-);
-
-var css = new Array(
-    "#",
-    "#"
-);
-
-var ruby = new Array(
-    "#",
-    "#"
-);
-
-var business = new Array(
-    "#",
-    "#"
+    // 追加した出題ページの相対パスを追加してください。
 );
 
   function random_jump() {
-    var i = Math.floor(Math.random() * mylink.length);
-    location.href = mylink[i];
+    const i = Math.floor(Math.random() * ruby.length);
+    location.href = ruby[i];
   }
