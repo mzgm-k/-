@@ -226,3 +226,13 @@ footer {
 .format-button:hover {
   background-color: #f0f0f0;
 }
+
+@media (min-width: 768px) {
+  .format-main {
+    flex-direction: row;
+  }
+
+  .format-button {
+    margin: 70px;
+  }
+}
