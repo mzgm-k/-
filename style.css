@@ -518,4 +518,45 @@ footer {
   margin: 0 auto;
 }
 
+.quiz-answer {
+  width: 80%;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.quiz-answer input {
+  display: none; /* ラジオボタンを非表示にする */
+}
+
+.quiz-answer input:checked + label {
+  background: #31A9EE;/* マウス選択時の背景色を指定する */
+  color: #ffffff; /* マウス選択時のフォント色を指定する */
+}
+
+.quiz-label {
+  display: block; /* ブロックレベル要素化する */
+  margin: 0 auto; /* ボックス外側の余白を指定する */
+  width: 80%; /* ボックスの横幅を指定する */
+  height: auto; /* ボックスの高さを指定する */
+  padding: 5px; /* ボックス内左側の余白を指定する */
+  color: white; /* フォントの色を指定 */
+  text-align: center; /* テキストのセンタリングを指定する */
+  background-color: #007BFF;
+  border-radius: 5px; /* 角丸を指定する */
+  word-break: break-all;
+}
+
+.quiz-answer-btn input{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  background-color: #fabc59;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
 }
