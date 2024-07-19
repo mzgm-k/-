@@ -13,6 +13,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
+  background-color: #EFFBFF;
 }
 
 /* Navbar & Navmenu color */
@@ -191,218 +192,220 @@ footer {
   bottom: 0;
   left: 0;
 }
+/*------------------------------------------------------------------------------ 
+  トップページ
+------------------------------------------------------------------------------ */
 /* スマホ画面用のCSS*/
 @media screen and (max-width: 768px) {
-.top-body{
-  overflow: hidden;
-  height: auto;background-color: #EFFBFF;
+  .top-body{
+    overflow: hidden;
+    height: auto;
+    background-color: #EFFBFF;
+  }
+  .top-back{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  .top-back2{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  .top-main{
+    padding: 30px;
+    background-color: #EFFBFF;
+    margin-top: 116px;
+    height: calc(100% - 116px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-business{
+    height: 11vh;
+    width: 55vw;
+    background-color: #ffffff;
+    border: solid 5px #FFC1C1;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-html{
+    height: 11vh;
+    width: 55vw;
+    background-color: #ffffff;
+    border: solid 5px #A8A1FC;
+    border-radius: 28px;
+    margin-top: 10px;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-css{
+    height: 11vh;
+    width: 55vw;
+    background-color: #ffffff;
+    border: solid 5px #EEEF94;
+    border-radius: 28px;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-java{
+    height: 11vh;
+    width: 55vw;
+    background-color: #ffffff;
+    border: solid 5px #8EDB88;
+    border-radius: 28px;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-ruby{
+    height: 11vh;
+    width: 55vw;
+    background-color: #ffffff;
+    border: solid 5px #9D9A9A;
+    border-radius: 28px;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-link{
+    font-size: 6vw;
+    text-align: center;
+  }
+  .top-a{
+    color: #000;
+    text-decoration-line: none;
+  }
+  .top-b{
+    color: #000;
+    text-decoration-line: none;
+  }
+  .top-c{
+    color: #000;
+    text-decoration-line: none;
+  }
 }
-.top-back{
-  height: auto;
-  width: auto;
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-}
-.top-back2{
-  height: auto;
-  width: auto;
-  display: flex;
-  align-items: center;
-  flex-flow: column;
-}
-.top-main{
-  padding: 30px;
-  background-color: #EFFBFF;
-  margin-top: 116px;
-  height: calc(100% - 116px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.top-business{
-  height: 11vh;
-  width: 55vw;
-  background-color: #ffffff;
-  border: solid 5px #FFC1C1;
-  border-radius: 28px;
-  margin-top: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.top-html{
-  height: 11vh;
-  width: 55vw;
-  background-color: #ffffff;
-  border: solid 5px #A8A1FC;
-  border-radius: 28px;
-  margin-top: 10px;
-  margin-top: 3vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.top-css{
-  height: 11vh;
-  width: 55vw;
-  background-color: #ffffff;
-  border: solid 5px #EEEF94;
-  border-radius: 28px;
-  margin-top: 3vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.top-java{
-  height: 11vh;
-  width: 55vw;
-  background-color: #ffffff;
-  border: solid 5px #8EDB88;
-  border-radius: 28px;
-  margin-top: 3vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.top-ruby{
-  height: 11vh;
-  width: 55vw;
-  background-color: #ffffff;
-  border: solid 5px #9D9A9A;
-  border-radius: 28px;
-  margin-top: 3vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.top-link{
-  font-size: 6vw;
-  text-align: center;
-}
-.top-a{
-  color: #000;
-  text-decoration-line: none;
-}
-.top-b{
-  color: #000;
-  text-decoration-line: none;
-}
-.top-c{
-  color: #000;
-  text-decoration-line: none;
-}
-}
+
 /* PC画面用のCSS*/
 @media screen and (min-width: 769px) {
-.top-body{
-  overflow: hidden;
-  background-color: #EFFBFF;
-  padding-top: 100px;
-}
-.top-back{
-  background-color: #EFFBFF;
-  height: 290px;
-  width: 100%;
-  display: flex;
-  align-items:center;
-  justify-content: space-around;
-}
-.top-back2{
-  background-color: #EFFBFF;
-  height: 357px;
-  width: 100%;
-  display: flex;
-  align-items:center;
-  justify-content:space-around;
-}
-.top-main{
-  padding: 30px;
-  background-color: #EFFBFF;
-  margin-top: 116px;
-}
-.top-business{
-  height: 150px;
-  width: 23vw;
-  background-color: #ffffff;
-  border: solid 5px #FFC1C1;
-  border-radius: 28px;
-  margin-top: 30px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.top-html{
-  height: 150px;
-  width: 23vw;
-  background-color: #ffffff;
-  border: solid 5px #A8A1FC;
-  border-radius: 28px;
-  margin-top: 30px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.top-css{
-  height: 150px;
-  width: 23vw;
-  background-color: #ffffff;
-  border: solid 5px #EEEF94;
-  border-radius: 28px;
-  margin-top: 30px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.top-java{
-  height: 150px;
-  width: 23vw;
-  background-color: #ffffff;
-  border: solid 5px #8EDB88;
-  border-radius: 28px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.top-ruby{
-  height: 150px;
-  width: 23vw;
-  background-color: #ffffff;
-  border: solid 5px #9D9A9A;
-  border-radius: 28px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.top-link{
-  font-size: 3vw;
-  text-align: center;
-}
-.top-a{
-  color: #000;
-  text-decoration-line: none;
-}
-.top-b{
-  color: #000;
-  text-decoration-line: none;
-  margin-left: 15%;
-}
-.top-c{
-  color: #000;
-  text-decoration-line: none;
-  margin-right: 15%;
-}
+  .top-back{
+    background-color: #EFFBFF;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+  .top-back2{
+    background-color: #EFFBFF;
+    height: 357px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+  }
+  .top-main{
+    padding: 30px;
+    background-color: #EFFBFF;
+    margin-top: 116px;
+  }
+  .top-business{
+    height: 150px;
+    width: 23vw;
+    background-color: #ffffff;
+    border: solid 5px #FFC1C1;
+    border-radius: 28px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-html{
+    height: 150px;
+    width: 23vw;
+    background-color: #ffffff;
+    border: solid 5px #A8A1FC;
+    border-radius: 28px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-css{
+    height: 150px;
+    width: 23vw;
+    background-color: #ffffff;
+    border: solid 5px #EEEF94;
+    border-radius: 28px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-java{
+    height: 150px;
+    width: 23vw;
+    background-color: #ffffff;
+    border: solid 5px #8EDB88;
+    border-radius: 28px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-ruby{
+    height: 150px;
+    width: 23vw;
+    background-color: #ffffff;
+    border: solid 5px #9D9A9A;
+    border-radius: 28px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-link{
+    font-size: 3vw;
+    text-align: center;
+  }
+  .top-a{
+    color: #000;
+    text-decoration-line: none;
+  }
+  .top-b{
+    color: #000;
+    text-decoration-line: none;
+    margin-left: 15%;
+  }
+  .top-c{
+    color: #000;
+    text-decoration-line: none;
+    margin-right: 15%;
+  }
 }  
 
+/*------------------------------------------------------------------------------ 
+  問題選択画面
+------------------------------------------------------------------------------ */
 .wrapper-select {
   background-color: #effbff;
-  height: calc(100vh - 166px); 
+  height: calc(100vh - 116px); 
   width: 100vw;
   overflow-y: auto;
   position: absolute;
@@ -446,10 +449,9 @@ footer {
   color: gray;
 }
 
-
-/* 
-出題形式選択画面
-*/
+/*------------------------------------------------------------------------------ 
+  出題形式選択画面
+------------------------------------------------------------------------------ */
 .format-main{
   height: calc(100% - 116px);
   width: 100%; 
@@ -489,4 +491,159 @@ footer {
   .format-button {
     margin: 70px;
   }
+}
+
+/*------------------------------------------------------------------------------ 
+  出題ページ
+------------------------------------------------------------------------------ */
+.quiz-body {
+  overflow: hidden;
+}
+
+.quiz-main {
+  width: 100%;
+  background-color: #EFFBFF;
+  margin-top: 116px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.quiz-title {
+  background-color: #d3d3d3;
+  width: 80%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  font-size: 24px; /* 大きな文字サイズ */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quiz-answer {
+  width: 80%;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.quiz-answer input {
+  display: none; /* ラジオボタンを非表示にする */
+}
+
+.quiz-answer input:checked + label {
+  background: #31A9EE;/* マウス選択時の背景色を指定する */
+  color: #ffffff; /* マウス選択時のフォント色を指定する */
+}
+
+.quiz-label {
+  display: block; /* ブロックレベル要素化する */
+  margin: 0 auto; /* ボックス外側の余白を指定する */
+  width: 80%; /* ボックスの横幅を指定する */
+  height: auto; /* ボックスの高さを指定する */
+  padding: 5px; /* ボックス内左側の余白を指定する */
+  color: white; /* フォントの色を指定 */
+  text-align: center; /* テキストのセンタリングを指定する */
+  background-color: #007BFF;
+  border-radius: 5px; /* 角丸を指定する */
+  word-break: break-all;
+}
+
+.quiz-answer-btn input{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  background-color: #fabc59;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#quiz-result {
+  display: none;
+  text-align: center;
+}
+
+.quiz_correct_answer {
+  background-color: #d3d3d3;
+  width: 80%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  font-size: 262px; /* 大きな文字サイズ */
+  text-align: center;
+  margin: 0 auto;
+  color: red;
+}
+
+.quiz_incorrect_answer {
+  background-color: #d3d3d3;
+  width: 80%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  font-size: 200px; /* 大きな文字サイズ */
+  text-align: center;
+  margin: 0 auto;
+  color: blue;
+}
+
+#quiz-explanation {
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.quiz-explanation-content{
+  margin: 0 auto;
+  width: 80%; /* ボックスの横幅を指定する */
+  height: auto; /* ボックスの高さを指定する */
+  margin-top: 20px;
+  padding: 5px; /* ボックス内左側の余白を指定する */
+  color: white; /* フォントの色を指定 */
+  text-align: center; /* テキストのセンタリングを指定する */
+  background-color: #007BFF;
+  border-radius: 5px; /* 角丸を指定する */
+  word-break: break-all;
+}
+
+.quiz-explanation-content div {
+  padding: 7px;
+  border: 3px solid lightblue;
+  border-radius: 5px;
+  background-color: #4fa4ff;
+}
+
+.quiz-explanation-reference {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px; /* ボックス内左側の余白を指定する */
+  color: rgb(35, 35, 37); 
+  text-align: center; /* テキストのセンタリングを指定する */
+  word-break: break-all;
+  font-size: 12px;
+}
+
+.quiz-navigation {
+  display: flex;
+  width: 300px;
+  margin: 30px auto 0;
+  justify-content: space-around;
+}
+
+.quiz-navigation a {
+  padding: 5px;
+  background-color: #007BFF;
+  color: white; /* フォントの色を指定 */
+  border-radius: 5px;
 }
