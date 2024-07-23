@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ビジネスマナー/問3</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="quiz-body" id="quiz-body">
+  <header class="header">
+    <div class="navtext-container">
+      <a href="../top.html" class="navtext">新人IT＆マナークイズ</a>
+    </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="top"><a href="../quiz_business/question_selection_page.html" class="top-business2">ビジネスマナー</a></li>
+      <li><a href="../quiz_HTML/question_selection_page.html" class="top-html2">HTML</a></li>
+      <li><a href="../quiz_CSS/question_selection_page.html" class="top-css2">CSS</a></li>
+      <li><a href="../quiz_JavaScript/question_selection_page.html" class="top-ruby2">JavaScript</a></li>
+      <li><a href="../quiz_Ruby/question_selection_page.html" class="top-java2">Ruby</a></li>
+    </ul>
+  </header>
+  <div class="quiz-main">
+    <div class="quiz-title">
+      <h3>電話に出る際の適切な挨拶を選択してください</h3>
+    </div>
+
+    <div class="quiz-answer" id="quiz">
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">はい、どのようなご用件でしょうか</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">こちら（会社名）の（名前）です</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">もしもし</label><br>
+
+      <input type="radio" name="answer" value="correct" id="quiz-answer4">
+      <label for="quiz-answer4" class="quiz-label">お電話ありがとうございます、（会社名）の（名前）でございます</label><br>
+      <!-- 正解の選択肢のvalueにcorrectを入力してください -->
+    </div>
+
+    <div class="quiz-answer-btn">
+      <input type="button" value="回答" onclick="checkAnswer()">
+    </div>
+    
+    <div id="quiz-result"></div>
+
+    <div id="quiz-explanation">
+      <div class="quiz-explanation-content">
+        はい、どのようなご用件でしょうか
+        <div>用件は、かけてきた方が話すまで待ちましょう</div>
+      </div>
+      <div class="quiz-explanation-content">
+        こちら（会社名）の（名前）です
+        <div>いきなり名乗るのではなく、クッション言葉を活用しましょう</div>
+      </div>
+      <div class="quiz-explanation-content">
+        もしもし
+        <div>カジュアルな挨拶はビジネスシーンでは不適切です</div>
+      </div>
+      <div class="quiz-explanation-content">
+        お電話ありがとうございます、（会社名）の（名前）でございます
+        <div>企業内で受け答えが統一されていない場合は、これを参考にしましょう</div>
+      </div>
+      <div class="quiz-explanation-reference">
+          参考文献
+        <div class="reference-site">
+          <a href="https://transic.jp/blogs/column/telephone-correspondence_3pz">【ビジネスマナー・電話対応編】心構え・発信や受信・注意点も解説</a><br>
+          <a href="https://www.staffservice.co.jp/cheer/jobs/telephone.html#section_child_2_1">【例文付き】電話応対の基本マニュアル。マナーとコツをおさらい！</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-navigation">
+      <a href="">前の問題</a>
+      <a href="question_selection_page.html">問題集</a>
+      <a href="">次の問題</a>
+    </div>
+  </div>
+  <footer>footer</footer>
+  <script src="../JS/quiz.js"></script>
+</body>
+</html>
