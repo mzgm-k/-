@@ -27,7 +27,7 @@
       <h3>次のJavaScriptコードを実行するとどうなるのか選択してください<br>
         <!--コード表示にする-->
         let element = document.getElementById('button');<br>
-        element.textContent = 'クリックして下さい';        
+        element.textContent = 'クリックして下さい';<br>
       </h3>
     </div>
 
@@ -59,34 +59,41 @@
           const buttons = document.querySelectorAll('.button');<br>
           buttons.forEach(function(button) {<br>
               button.textContent = 'クリックして下さい';<br>
-          });
+          });<br>
         </div>
       </div>
       <div class="quiz-explanation-content">
         idがbuttonの要素のテキストを「クリックして下さい」に変更する
-        <div>解説文2</div>
+        <div>正解です<br>
+          let element = document.getElementById('button');<br>
+          element.textContent = 'クリックして下さい';<br>
+        </div>
       </div>
       <div class="quiz-explanation-content">
         buttonタグの全てのボタンのテキストを「クリックして下さい」に変更する
-        <div>解説文3</div>
+        <div>実装するためのコードはこちらです<br>
+          const buttons = document.querySelectorAll('button');<br>
+          buttons.forEach(button => {<br>
+            button.textContent = "クリックして下さい";<br>
+          });<br>
+        </div>
       </div>
       <div class="quiz-explanation-content">
-        何も変更しない
+        何も変わらない
         <div></div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
           <a href="question_selection_page.html">参考サイト1</a><br>
-          <a href="">参考サイト2</a>
         </div>
       </div>
     </div>
 
     <div class="quiz-navigation">
-      <a href="">前の問題</a>
-      <a href="">問題集</a>
-      <a href="">次の問題</a>
+      <a href="javascript_quiz_2.html">前の問題</a>
+      <a href="../question_selection_page.html">問題集</a>
+      <a href="javascript_quiz_4.html">次の問題</a>
     </div>
   </div>
   <footer>footer</footer>
