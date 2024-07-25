@@ -24,21 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>クイズのタイトル</h3>
+      <h3>指定されたHTML要素のテキスト内容を取得または設定するためのプロパティを選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
-      <input type="radio" name="answer" value="correct" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">選択肢1</label><br>
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">innerText</label><br>
 
-      <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">選択肢2</label><br>
+      <input type="radio" name="answer" value="correct" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">textContent</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">選択肢3</label><br>
+      <label for="quiz-answer3" class="quiz-label">innerHTML</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">選択肢4</label><br>
+      <label for="quiz-answer4" class="quiz-label">outerHTML</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,26 +50,26 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        選択肢1
-        <div>解説文1</div>
+        innerText
+        <div>HTML要素の内部テキストを取得または設定するためのプロパティのことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢2
-        <div>解説文2</div>
+        textContent
+        <div>指定されたHTML要素のテキスト内容を取得または設定するためのプロパティのことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢3
-        <div>解説文3</div>
+        innerHTML
+        <div>HTML要素の内容を取得または設定するためのプロパティのことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢4
-        <div>解説文4</div>
+        outerHTML
+        <div>要素とそのHTMLの中を取得するためのプロパティのことです</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
-          <a href="question_selection_page.html">参考サイト1</a><br>
-          <a href="">参考サイト2</a>
+          <a href="https://qiita.com/nobu19119516/items/befa18f7f187f3621819">参考サイト1</a><br>
+          <a href="https://magazine.techacademy.jp/magazine/29513#:~:text=outerHTML%E3%81%A8%E3%81%AF%E3%80%81%E8%A6%81%E7%B4%A0%E3%81%A8,%E5%87%A6%E7%90%86%E3%82%92%E8%A8%98%E8%BF%B0%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%E3%80%82">参考サイト2</a>
         </div>
       </div>
     </div>

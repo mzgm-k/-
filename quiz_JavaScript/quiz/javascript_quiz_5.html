@@ -24,21 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>クイズのタイトル</h3>
+      <h3>指定された回数だけ繰り返し処理を行うための制御構造を選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
-      <input type="radio" name="answer" value="correct" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">選択肢1</label><br>
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">if文</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">選択肢2</label><br>
+      <label for="quiz-answer2" class="quiz-label">switch文</label><br>
 
-      <input type="radio" name="answer" value="" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">選択肢3</label><br>
+      <input type="radio" name="answer" value="correct" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">for文</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">選択肢4</label><br>
+      <label for="quiz-answer4" class="quiz-label">while文</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,25 +50,27 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        選択肢1
-        <div>解説文1</div>
+        if文
+        <div>条件が満たされたときに特定のコードを実行するためのものです<br>
+        条件が満たされない場合、別のコードを実行することもできます
+        </div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢2
-        <div>解説文2</div>
+        switch文
+        <div>条件に基づいて異なる処理を実行するための制御構造のことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢3
-        <div>解説文3</div>
+        for文
+        <div>指定された回数だけ繰り返し処理を行うための制御構造のことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢4
-        <div>解説文4</div>
+        while文
+        <div>条件がtrue(真)の間、特定のコードブロックを繰り返し実行するループ構造のことです</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
-          <a href="question_selection_page.html">参考サイト1</a><br>
+          <a href="https://jsprimer.net/basic/condition/">参考サイト1</a><br>
           <a href="">参考サイト2</a>
         </div>
       </div>

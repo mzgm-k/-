@@ -24,21 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>クイズのタイトル</h3>
+      <h3>マウスのボタンを押して離すを２度続けたにあてはまるものを選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
-      <input type="radio" name="answer" value="correct" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">選択肢1</label><br>
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">keydown</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">選択肢2</label><br>
+      <label for="quiz-answer2" class="quiz-label">onclick</label><br>
 
-      <input type="radio" name="answer" value="" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">選択肢3</label><br>
+      <input type="radio" name="answer" value="correct" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">ondbclick</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">選択肢4</label><br>
+      <label for="quiz-answer4" class="quiz-label">keyup</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,26 +50,25 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        選択肢1
-        <div>解説文1</div>
+        keydown
+        <div>いずれかのキーが押された際に発火するイベントのことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢2
-        <div>解説文2</div>
+        onclick
+        <div>マウスのボタンを１度押して離した際に発火するイベントのことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢3
-        <div>解説文3</div>
+        ondbclick
+        <div>マウスのボタンを押して離すを２度続けた際に発火するイベントのことです</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢4
-        <div>解説文4</div>
+        keyup
+        <div>いずれかのキーが離された際に発火するイベントのことです</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
-          <a href="question_selection_page.html">参考サイト1</a><br>
-          <a href="">参考サイト2</a>
+          <a href="https://web-designer.cman.jp/javascript_ref/event_list/">参考サイト1</a><br>
         </div>
       </div>
     </div>

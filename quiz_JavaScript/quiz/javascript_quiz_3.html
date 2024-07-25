@@ -24,21 +24,25 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>クイズのタイトル</h3>
+      <h3>次のJavaScriptコードを実行するとどうなるのか選択してください<br>
+        <!--コード表示にする-->
+        let element = document.getElementById('button');<br>
+        element.textContent = 'クリックして下さい';        
+      </h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
-      <input type="radio" name="answer" value="correct" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">選択肢1</label><br>
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">buttonクラスの全てのボタンのテキストを「クリックして下さい」に変更する</label><br>
 
-      <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">選択肢2</label><br>
+      <input type="radio" name="answer" value="correct" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">idがbuttonの要素のテキストを「クリックして下さい」に変更する</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">選択肢3</label><br>
+      <label for="quiz-answer3" class="quiz-label">buttonタグの全てのボタンのテキストを「クリックして下さい」に変更する</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">選択肢4</label><br>
+      <label for="quiz-answer4" class="quiz-label">何も変更しない</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,20 +54,25 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        選択肢1
-        <div>解説文1</div>
+        buttonクラスの全てのボタンのテキストを「クリックして下さい」に変更する
+        <div>実装するためのコードはこちらです<br>
+          const buttons = document.querySelectorAll('.button');<br>
+          buttons.forEach(function(button) {<br>
+              button.textContent = 'クリックして下さい';<br>
+          });
+        </div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢2
+        idがbuttonの要素のテキストを「クリックして下さい」に変更する
         <div>解説文2</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢3
+        buttonタグの全てのボタンのテキストを「クリックして下さい」に変更する
         <div>解説文3</div>
       </div>
       <div class="quiz-explanation-content">
-        選択肢4
-        <div>解説文4</div>
+        何も変更しない
+        <div></div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
