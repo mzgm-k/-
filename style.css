@@ -645,3 +645,33 @@ footer {
   color: white; /* フォントの色を指定 */
   border-radius: 5px;
 }
+
+/*------------------------------------------------------------------------------ 
+  Rubyクイズ
+------------------------------------------------------------------------------ */
+.quiz-samplecode {
+  width: 60%;
+  height: auto;
+}
+
+.quiz-samplecode-title {
+  width: 100%;
+  font-size: 14px;
+  color: #dcdcdc;
+  background-color: #4d4d4d;
+  padding: 5px 20px;
+  text-align: left;
+  border-radius: 10px 10px 0 0;
+}
+
+.quiz-samplecode-main {
+  width: 100%;
+  font-size: 14px;
+  color: whitesmoke;
+  background-color: #1b1b1b;
+  padding: 20px;
+  text-align: left;
+  border-radius: 0 0 10px 10px;
+  white-space: nowrap;
+  overflow: auto;
+}
