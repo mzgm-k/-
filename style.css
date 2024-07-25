@@ -496,9 +496,7 @@ footer {
 /*------------------------------------------------------------------------------ 
   出題ページ
 ------------------------------------------------------------------------------ */
-.quiz-body {
-  overflow: hidden;
-}
+
 
 .quiz-main {
   width: 100%;
@@ -520,6 +518,8 @@ footer {
   font-size: 24px; /* 大きな文字サイズ */
   text-align: center;
   margin: 0 auto;
+  padding:20px;
+  word-break: break-all;
 }
 
 .quiz-answer {
