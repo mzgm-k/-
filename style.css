@@ -521,7 +521,16 @@ footer {
   padding:20px;
   word-break: break-all;
 }
-
+.quiz-title-css{
+  background-color: #d3d3d3;
+  width: 80%;
+  border-radius: 50px;
+  min-height: 150px;
+  font-size: 24px; /* 大きな文字サイズ */
+  margin: 0 auto;
+  padding:20px;
+  text-align: left;
+}
 .quiz-answer {
   width: 80%;
   margin: 20px auto 0;
