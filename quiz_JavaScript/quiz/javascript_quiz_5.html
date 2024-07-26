@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript/問</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body class="quiz-body" id="quiz-body">
+  <header class="header">
+    <div class="navtext-container">
+      <a href="../../top.html" class="navtext">新人IT＆マナークイズ</a>
+    </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="top"><a href="../../quiz_business/question_selection_page.html" class="top-business2">ビジネスマナー</a></li>
+      <li><a href="../../quiz_HTML/question_selection_page.html" class="top-html2">HTML</a></li>
+      <li><a href="../../quiz_CSS/question_selection_page.html" class="top-css2">CSS</a></li>
+      <li><a href="../../quiz_JavaScript/question_selection_page.html" class="top-ruby2">JavaScript</a></li>
+      <li><a href="../../quiz_Ruby/question_selection_page.html" class="top-java2">Ruby</a></li>
+    </ul>
+  </header>
+  <div class="quiz-main">
+    <div class="quiz-title">
+      <h3>指定された回数だけ繰り返し処理を行うための制御構造を選択してください</h3>
+    </div>
+
+    <div class="quiz-answer" id="quiz">
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">if文</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">switch文</label><br>
+
+      <input type="radio" name="answer" value="correct" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">for文</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer4">
+      <label for="quiz-answer4" class="quiz-label">while文</label><br>
+      <!-- 正解の選択肢のvalueにcorrectを入力してください -->
+    </div>
+
+    <div class="quiz-answer-btn">
+      <input type="button" value="回答" onclick="checkAnswer()">
+    </div>
+    
+    <div id="quiz-result"></div>
+
+    <div id="quiz-explanation">
+      <div class="quiz-explanation-content">
+        if文
+        <div>条件が満たされたときに特定のコードを実行するためのものです<br>
+        条件が満たされない場合、別のコードを実行することもできます
+        </div>
+      </div>
+      <div class="quiz-explanation-content">
+        switch文
+        <div>条件に基づいて異なる処理を実行するための制御構造のことです</div>
+      </div>
+      <div class="quiz-explanation-content">
+        for文
+        <div>指定された回数だけ繰り返し処理を行うための制御構造のことです</div>
+      </div>
+      <div class="quiz-explanation-content">
+        while文
+        <div>条件がtrue(真)の間、特定のコードブロックを繰り返し実行するループ構造のことです</div>
+      </div>
+      <div class="quiz-explanation-reference">
+          参考文献
+        <div class="reference-site">
+          <a href="https://jsprimer.net/basic/condition/">条件分岐</a><br>
+          <a href="https://jsprimer.net/basic/loop/">ループ文</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-navigation">
+      <a href="javascript_quiz_4.html">前の問題</a>
+      <a href="../question_selection_page.html">問題集</a>
+      <a href="javascript_quiz_6.html">次の問題</a>
+    </div>
+  </div>
+  <footer>footer</footer>
+  <script src="../../JS/quiz.js"></script>
+</body>
+</html>

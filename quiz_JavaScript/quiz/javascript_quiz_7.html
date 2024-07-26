@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript/問</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body class="quiz-body" id="quiz-body">
+  <header class="header">
+    <div class="navtext-container">
+      <a href="../../top.html" class="navtext">新人IT＆マナークイズ</a>
+    </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="top"><a href="../../quiz_business/question_selection_page.html" class="top-business2">ビジネスマナー</a></li>
+      <li><a href="../../quiz_HTML/question_selection_page.html" class="top-html2">HTML</a></li>
+      <li><a href="../../quiz_CSS/question_selection_page.html" class="top-css2">CSS</a></li>
+      <li><a href="../../quiz_JavaScript/question_selection_page.html" class="top-ruby2">JavaScript</a></li>
+      <li><a href="../../quiz_Ruby/question_selection_page.html" class="top-java2">Ruby</a></li>
+    </ul>
+  </header>
+  <div class="quiz-main">
+    <div class="quiz-title">
+      <h3>マウスポインタが要素の上に乗った際に発火するものを選択してください</h3>
+    </div>
+
+    <div class="quiz-answer" id="quiz">
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">mouseout</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">mouseup</label><br>
+
+      <input type="radio" name="answer" value="correct" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">mouseover</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer4">
+      <label for="quiz-answer4" class="quiz-label">mousedown</label><br>
+      <!-- 正解の選択肢のvalueにcorrectを入力してください -->
+    </div>
+
+    <div class="quiz-answer-btn">
+      <input type="button" value="回答" onclick="checkAnswer()">
+    </div>
+    
+    <div id="quiz-result"></div>
+
+    <div id="quiz-explanation">
+      <div class="quiz-explanation-content">
+        mouseout
+        <div>マウスポインタが要素の外へ移動したときに発火するイベントのことです</div>
+      </div>
+      <div class="quiz-explanation-content">
+        mouseup
+        <div>ボタンが要素の上で離された際に発火するイベントのことです</div>
+      </div>
+      <div class="quiz-explanation-content">
+        mouseover
+        <div>マウスポインタが要素の上に乗った際に発火するイベントのことです</div>
+      </div>
+      <div class="quiz-explanation-content">
+        mousedown
+        <div>ボタンが要素上で押された際に発火するイベントのことです</div>
+      </div>
+      <div class="quiz-explanation-reference">
+          参考文献
+        <div class="reference-site">
+          <a href="https://zenn.dev/mryhryki/articles/2022-10-06-mouse-events">マウスのイベント</a><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-navigation">
+      <a href="javascript_quiz_6.html">前の問題</a>
+      <a href="../question_selection_page.html">問題集</a>
+      <a href="javascript_quiz_8.html">次の問題</a>
+    </div>
+  </div>
+  <footer>footer</footer>
+  <script src="../../JS/quiz.js"></script>
+</body>
+</html>
