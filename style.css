@@ -664,26 +664,34 @@ footer {
 .quiz-samplecode {
   width: 60%;
   height: auto;
+  margin: 0 auto;
+  padding: 0px !important;
+  border: none !important;
+  border-radius: 0px !important;
 }
 
 .quiz-samplecode-title {
   width: 100%;
   font-size: 14px;
   color: #dcdcdc;
-  background-color: #4d4d4d;
-  padding: 5px 20px;
+  background-color: #4d4d4d !important;
+  padding: 5px 20px !important;
   text-align: left;
-  border-radius: 10px 10px 0 0;
+  border: none !important;
+  border-radius: 10px 10px 0 0 !important;
+  margin: 0 auto;
 }
 
 .quiz-samplecode-main {
   width: 100%;
   font-size: 14px;
   color: whitesmoke;
-  background-color: #1b1b1b;
-  padding: 20px;
+  background-color: #1b1b1b !important;
+  padding: 20px !important;
   text-align: left;
-  border-radius: 0 0 10px 10px;
+  border: none !important;
+  border-radius: 0 0 10px 10px !important;
   white-space: nowrap;
   overflow: auto;
+  margin: 0 auto;
 }

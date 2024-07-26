@@ -24,11 +24,14 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>次のJavaScriptコードを実行するとどうなるのか選択してください<br>
-        <!--コード表示にする-->
-        let element = document.getElementById('button');<br>
-        element.textContent = 'クリックして下さい';<br>
-      </h3>
+      <h3>次のJavaScriptコードを実行するとどうなるのか選択してください</h3>
+      <div class="quiz-samplecode">
+        <div class="quiz-samplecode-title">JavaScript</div>
+        <div class="quiz-samplecode-main">
+          let element = document.getElementById('button');<br>
+          element.textContent = 'クリックして下さい';<br>
+        </div>
+      </div>
     </div>
 
     <div class="quiz-answer" id="quiz">
@@ -55,32 +58,48 @@
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
         buttonクラスの全てのボタンのテキストを「クリックして下さい」に変更する
-        <div>実装するためのコードはこちらです<br>
-          const buttons = document.querySelectorAll('.button');<br>
-          buttons.forEach(function(button) {<br>
-              button.textContent = 'クリックして下さい';<br>
-          });<br>
+        <div>実装するためのコードはこちらです
+          <div class="quiz-samplecode">
+            <div class="quiz-samplecode-title">JavaScript</div>
+            <div class="quiz-samplecode-main">
+              const buttons = document.querySelectorAll('.button');<br>
+              buttons.forEach(function(button) {<br>
+              &nbsp;&nbsp;button.textContent = 'クリックして下さい';<br>
+              });
+            </div>
+          </div>
         </div>
       </div>
       <div class="quiz-explanation-content">
         idがbuttonの要素のテキストを「クリックして下さい」に変更する
-        <div>正解です<br>
-          let element = document.getElementById('button');<br>
-          element.textContent = 'クリックして下さい';<br>
+        <div>正解です
+          <div class="quiz-samplecode">
+            <div class="quiz-samplecode-title">JavaScript</div>
+            <div class="quiz-samplecode-main">
+              let element = document.getElementById('button');<br>
+              element.textContent = 'クリックして下さい';
+            </div>
+          </div>
+          
         </div>
       </div>
       <div class="quiz-explanation-content">
         buttonタグの全てのボタンのテキストを「クリックして下さい」に変更する
-        <div>実装するためのコードはこちらです<br>
-          const buttons = document.querySelectorAll('button');<br>
-          buttons.forEach(button => {<br>
-            button.textContent = "クリックして下さい";<br>
-          });<br>
+        <div>実装するためのコードはこちらです
+          <div class="quiz-samplecode">
+            <div class="quiz-samplecode-title">JavaScript</div>
+            <div class="quiz-samplecode-main">
+              const buttons = document.querySelectorAll('button');<br>
+              buttons.forEach(button => {<br>
+              &nbsp;&nbsp;button.textContent = "クリックして下さい";<br>
+              });
+            </div>
+          </div>
         </div>
       </div>
       <div class="quiz-explanation-content">
         何も変わらない
-        <div></div>
+        <div>idがbuttonの要素を取得し、そのテキストを「クリックして下さい」に変更するため、この回答は間違いです</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
