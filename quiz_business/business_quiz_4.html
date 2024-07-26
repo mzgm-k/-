@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ビジネスマナー/問4</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="quiz-body" id="quiz-body">
+  <header class="header">
+    <div class="navtext-container">
+      <a href="../top.html" class="navtext">新人IT＆マナークイズ</a>
+    </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="top"><a href="../quiz_business/question_selection_page.html" class="top-business2">ビジネスマナー</a></li>
+      <li><a href="../quiz_HTML/question_selection_page.html" class="top-html2">HTML</a></li>
+      <li><a href="../quiz_CSS/question_selection_page.html" class="top-css2">CSS</a></li>
+      <li><a href="../quiz_JavaScript/question_selection_page.html" class="top-ruby2">JavaScript</a></li>
+      <li><a href="../quiz_Ruby/question_selection_page.html" class="top-java2">Ruby</a></li>
+    </ul>
+  </header>
+  <div class="quiz-main">
+    <div class="quiz-title">
+      <h3>始業時間に遅刻しそうな際の適切な行動を選択してください</h3>
+    </div>
+
+    <div class="quiz-answer" id="quiz">
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">メールで遅刻することを伝える</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">なるべく早く到着するため、連絡せずに急いで向かう</label><br>
+
+      <input type="radio" name="answer" value="correct" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">遅刻の可能性がある時点で電話で連絡する</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer4">
+      <label for="quiz-answer4" class="quiz-label">緊急性が高いため、電車内で電話をして遅刻することを伝える</label><br>
+      <!-- 正解の選択肢のvalueにcorrectを入力してください -->
+    </div>
+
+    <div class="quiz-answer-btn">
+      <input type="button" value="回答" onclick="checkAnswer()">
+    </div>
+
+    <div id="quiz-result"></div>
+
+    <div id="quiz-explanation">
+      <div class="quiz-explanation-content">
+        メールで遅刻することを伝える
+        <div>遅刻の連絡は電話で行いましょう</div>
+      </div>
+      <div class="quiz-explanation-content">
+        なるべく早く到着するため、連絡せずに急いで向かう
+        <div>遅刻しそうな時点で、連絡は行いましょう<br>無連絡の遅刻は、信用を著しく失います</div>
+      </div>
+      <div class="quiz-explanation-content">
+        遅刻の可能性がある時点で電話で連絡する
+        <div>電話で遅刻の理由と到着予定を伝えましょう<br>また謝罪の言葉も忘れずに伝えましょう</div>
+      </div>
+      <div class="quiz-explanation-content">
+        緊急性が高いため、電車内で電話をして遅刻することを伝える
+        <div>電車内では通話は控え、まずはメールで遅刻の旨を伝えましょう<br>電話は電車から降りた後に行いましょう</div>
+      </div>
+      <div class="quiz-explanation-reference">
+          参考文献
+        <div class="reference-site">
+          <a href="https://hataractive.jp/useful/2522/">会社に遅刻したとき・しそうなときはどうする？対処方法を詳しく解説！</a><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-navigation">
+      <a href="business_quiz_3.html">前の問題</a>
+      <a href="question_selection_page.html">問題集</a>
+      <a href="business_quiz_5.html">次の問題</a>
+    </div>
+  </div>
+  <footer>footer</footer>
+  <script src="../JS/quiz.js"></script>
+</body>
+</html>

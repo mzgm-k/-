@@ -496,10 +496,6 @@ footer {
 /*------------------------------------------------------------------------------ 
   出題ページ
 ------------------------------------------------------------------------------ */
-.quiz-body {
-  overflow: hidden;
-}
-
 .quiz-main {
   width: 100%;
   background-color: #EFFBFF;
@@ -520,6 +516,8 @@ footer {
   font-size: 24px; /* 大きな文字サイズ */
   text-align: center;
   margin: 0 auto;
+  padding: 20px;
+  word-break: break-all;
 }
 
 .quiz-answer {
@@ -646,4 +644,34 @@ footer {
   background-color: #007BFF;
   color: white; /* フォントの色を指定 */
   border-radius: 5px;
+}
+
+/*------------------------------------------------------------------------------ 
+  Rubyクイズ
+------------------------------------------------------------------------------ */
+.quiz-samplecode {
+  width: 60%;
+  height: auto;
+}
+
+.quiz-samplecode-title {
+  width: 100%;
+  font-size: 14px;
+  color: #dcdcdc;
+  background-color: #4d4d4d;
+  padding: 5px 20px;
+  text-align: left;
+  border-radius: 10px 10px 0 0;
+}
+
+.quiz-samplecode-main {
+  width: 100%;
+  font-size: 14px;
+  color: whitesmoke;
+  background-color: #1b1b1b;
+  padding: 20px;
+  text-align: left;
+  border-radius: 0 0 10px 10px;
+  white-space: nowrap;
+  overflow: auto;
 }
