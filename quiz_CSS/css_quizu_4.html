@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS/問</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="quiz-body" id="quiz-body">
+  <header class="header">
+    <div class="navtext-container">
+      <a href="../top.html" class="navtext">新人IT＆マナークイズ</a>
+    </div>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="top"><a href="../quiz_business/question_selection_page.html" class="top-business2">ビジネスマナー</a></li>
+      <li><a href="../quiz_HTML/question_selection_page.html" class="top-html2">HTML</a></li>
+      <li><a href="../quiz_CSS/question_selection_page.html" class="top-css2">CSS</a></li>
+      <li><a href="../quiz_JavaScript/question_selection_page.html" class="top-ruby2">JavaScript</a></li>
+      <li><a href="../quiz_Ruby/question_selection_page.html" class="top-java2">Ruby</a></li>
+    </ul>
+  </header>
+  <div class="quiz-main">
+    <div class="quiz-title">
+      <h3>style要素に指定できない属性を選んでください。</h3>
+    </div>
+
+    <div class="quiz-answer" id="quiz">
+      <input type="radio" name="answer" value="correct" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">typed</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">media</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">nonce</label><br>
+
+      <input type="radio" name="answer" value="" id="quiz-answer4">
+      <label for="quiz-answer4" class="quiz-label">blocking</label><br>
+      <!-- 正解の選択肢のvalueにcorrectを入力してください -->
+    </div>
+
+    <div class="quiz-answer-btn">
+      <input type="button" value="回答" onclick="checkAnswer()">
+    </div>
+    
+    <div id="quiz-result"></div>
+
+    <div id="quiz-explanation">
+      <div class="quiz-explanation-content">
+        type
+        <div>かつては「type="text/css"」のように指定されていたtype属性は、<br>HTML4.01やXHTML1.0では必須の属性でした。<br>それがHTML5では省略可能となり、現在では仕様書からも削除されて<br>指定する必要のない属性となっています。</div>
+      </div>
+      <div class="quiz-explanation-content">
+        media
+        <div>media属性については、CSSを適用する対象のメディアやメディアクエリを<br>書き込むための重要な属性ですので、現在でも問題なく使用できます。</div>
+      </div>
+      <div class="quiz-explanation-content">
+        nonce
+        <div>nonce属性は、2019年当時はstyle要素とscript要素にしか指定できない属性でしたが、現在ではグローバル属性になっているため全要素に指定できます。</div>
+      </div>
+      <div class="quiz-explanation-content">
+        blocking
+        <div>blocking属性は2019年には無かった属性ですが、その後追加されています。</div>
+      </div>
+      <div class="quiz-explanation-reference">
+          参考文献
+        <div class="reference-site">
+          <a href="https://html5exam.jp/measures/lv1_2.html">Web資格なら「HTML5プロフェッショナル認定試験」</a><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-navigation">
+      <a href="css_quizu_3.html">前の問題</a>
+      <a href="question_selection_page.html">問題集</a>
+      <a href="css_quizu_5.html">次の問題</a>
+    </div>
+  </div>
+  <footer>footer</footer>
+  <script src="../JS/quiz.js"></script>
+</body>
+</html>
