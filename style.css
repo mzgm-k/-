@@ -199,7 +199,7 @@ footer {
 @media screen and (max-width: 768px) {
   .top-body{
     overflow: hidden;
-    height: auto;
+    height: 100svh;
     background-color: #EFFBFF;
   }
   .top-back{
