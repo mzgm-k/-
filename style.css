@@ -217,7 +217,7 @@ footer {
     flex-flow: column;
   }
   .top-main{
-    padding: 30px;
+    padding: 10px 30px 30px 30px;
     background-color: #EFFBFF;
     margin-top: 116px;
     height: auto;
