@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS/問</title>
+  <title>HTML/問</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -24,21 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>文字の色を赤に変えるためのCSSの記述を選択してください</h3>
+      <h3> 太字のテキストを表示するための<br>HTML要素を選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
-      <input type="radio" name="answer" value="correct" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">coler: #ff0000;</label><br>
+      <input type="radio" name="answer" value="" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">&lt;bold&gt;</label><br>
 
-      <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">font-coler: #ff0000;</label><br>
+      <input type="radio" name="answer" value="correct" id="quiz-answer2">
+      <label for="quiz-answer2" class="quiz-label">&lt;strong&gt;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">font-coler: red;</label><br>
+      <label for="quiz-answer3" class="quiz-label">&lt;br&gt;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">#ff0000;</label><br>
+      <label for="quiz-answer4" class="quiz-label">&lt;li&gt;</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,32 +50,33 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        coler: #ff0000;
-        <div>正解です</div>
+        &lt;bold&gt;
+        <div>現在では推奨されていない非標準のタグです</div>
       </div>
       <div class="quiz-explanation-content">
-        font-coler: #ff0000;
-        <div>fontの部分は不要です。<br>よって不正解です</div>
+        &lt;strong&gt;
+        <div>太字のテキストを表示するためのHTML要素になります</div>
       </div>
       <div class="quiz-explanation-content">
-        font-coler: red;
-        <div>fontの部分は不要です。<br>よって不正解です</div>
+        &lt;br&gt;
+        <div>改行を挿入するための要素です</div>
       </div>
       <div class="quiz-explanation-content">
-        #ff0000;
-        <div>カラープロパティが記述されていません。<br>よって不正解です</div>
+        &lt;li&gt;
+        <div>リストアイテムを表す要素です</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
-          <a href="https://csshtml.work/color-red/">マンガでわかるホームページ作成</a><br>
+          <a href="https://www.tagindex.com/html_tag/text_font/b.html">TAGindex</a><br>
         </div>
       </div>
     </div>
 
     <div class="quiz-navigation">
+      <a href="html_quiz_2.html">前の問題</a>
       <a href="question_selection_page.html">問題集</a>
-      <a href="css_quizu_2.html">次の問題</a>
+      <a href="html_quiz_4.html">次の問題</a>
     </div>
   </div>
   <footer>footer</footer>
