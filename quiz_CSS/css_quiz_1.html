@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML/問</title>
+  <title>CSS/問</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -24,21 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>コメントアウトするための<br>ショートカットキーを選択してください</h3>
+      <h3>文字の色を赤に変えるためのCSSの記述を選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
       <input type="radio" name="answer" value="correct" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">Ctrl + / </label><br>
+      <label for="quiz-answer1" class="quiz-label">coler: #ff0000;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">Ctrl + P </label><br>
+      <label for="quiz-answer2" class="quiz-label">font-coler: #ff0000;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">Ctrl + A </label><br>
+      <label for="quiz-answer3" class="quiz-label">font-coler: red;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">Ctrl + O </label><br>
+      <label for="quiz-answer4" class="quiz-label">#ff0000;</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,33 +50,32 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        Ctrl + / 
-        <div>コメントアウトのショートカットになります</div>
+        coler: #ff0000;
+        <div>正解です</div>
       </div>
       <div class="quiz-explanation-content">
-        Ctrl + P
-        <div>ファイルを印刷するショートカットになります</div>
+        font-coler: #ff0000;
+        <div>fontの部分は不要です。<br>よって不正解です</div>
       </div>
       <div class="quiz-explanation-content">
-        Ctrl + A 
-        <div>すべての項目を選択するショートカットになります</div>
+        font-coler: red;
+        <div>fontの部分は不要です。<br>よって不正解です</div>
       </div>
       <div class="quiz-explanation-content">
-        Ctrl + O 
-        <div>ファイルを開くショートカットになります</div>
+        #ff0000;
+        <div>カラープロパティが記述されていません。<br>よって不正解です</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
-          <a href="https://dotinstall.com/questions/we78jmp#:~:text=%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%A2%E3%82%A6%E3%83%88%E3%81%97%E3%81%9F%E3%81%84%E8%A1%8C%E3%82%92%E9%81%B8%E6%8A%9E,Ctrl%20%2B%20%2F%20%E3%82%92%E6%8A%BC%E3%81%97%E3%81%BE%E3%81%99%E3%80%82">ドットインストール</a><br>
+          <a href="https://csshtml.work/color-red/">マンガでわかるホームページ作成</a><br>
         </div>
       </div>
     </div>
 
     <div class="quiz-navigation">
-      <a href="html_quizu_4.html">前の問題</a>
       <a href="question_selection_page.html">問題集</a>
-      <a href="">次の問題</a>
+      <a href="css_quiz_2.html">次の問題</a>
     </div>
   </div>
   <footer>footer</footer>

@@ -425,8 +425,8 @@ footer {
 
 .contents-select {
   color: black;
-  width: 200px;
-  height: 50px;
+  width: 60vw;
+  height: 12vh;
   background-color: #fff;
   display: flex;
   justify-content: center;
