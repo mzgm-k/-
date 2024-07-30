@@ -473,7 +473,7 @@ footer {
   border: none;
   text-align: center;
   font-weight: bold;
-  margin: auto;
+  margin: 30px;
 }
 
 .format-button:hover {
