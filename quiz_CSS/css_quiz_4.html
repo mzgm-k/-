@@ -24,21 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>次のCSSセレクタの中で、優先順位がもっとも低くなる指定を選択してください</h3>
+      <h3>style要素に指定できない属性を選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
-      <input type="radio" name="answer" value="" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">:hover:first-child</label><br>
+      <input type="radio" name="answer" value="correct" id="quiz-answer1">
+      <label for="quiz-answer1" class="quiz-label">typed</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">div:hover:first-child</label><br>
+      <label for="quiz-answer2" class="quiz-label">media</label><br>
 
-      <input type="radio" name="answer" value="correct" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">*:hover::first-letter</label><br>
+      <input type="radio" name="answer" value="" id="quiz-answer3">
+      <label for="quiz-answer3" class="quiz-label">nonce</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">div:hover::first-letter</label><br>
+      <label for="quiz-answer4" class="quiz-label">blocking</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,20 +50,20 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        :hover:first-child
-        <div>:hover:first-childは擬似クラス2つで構成されているので優先順位は20です</div>
+        type
+        <div>かつては「type="text/css"」のように指定されていたtype属性は、<br>HTML4.01やXHTML1.0では必須の属性でした<br>それがHTML5では省略可能となり、現在では仕様書からも削除されて<br>指定する必要のない属性となっています</div>
       </div>
       <div class="quiz-explanation-content">
-        div:hover:first-child
-        <div>div:hover:first-childは擬似クラスが2つと、それらの前に要素が1つありますので<br>優先順位は21となります</div>
+        media
+        <div>media属性については、CSSを適用する対象のメディアやメディアクエリを<br>書き込むための重要な属性ですので、現在でも問題なく使用できます</div>
       </div>
       <div class="quiz-explanation-content">
-        *:hover::first-letter
-        <div>*:hover::first-letterの * はカウントされず、擬似クラスが1つと擬似要素が1つですので優先順位は11です</div>
+        nonce
+        <div>nonce属性は、2019年当時はstyle要素とscript要素にしか指定できない属性でしたが、現在ではグローバル属性になっているため全要素に指定できます</div>
       </div>
       <div class="quiz-explanation-content">
-        div:hover::first-letter
-        <div>div:hover::first-letterは要素が1つと擬似クラスが1つと擬似要素が1つですので<br>優先順位は12となります</div>
+        blocking
+        <div>blocking属性は2019年には無かった属性ですが、その後追加されています</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
@@ -74,9 +74,9 @@
     </div>
 
     <div class="quiz-navigation">
-      <a href="css_quizu_1.html">前の問題</a>
+      <a href="css_quiz_3.html">前の問題</a>
       <a href="question_selection_page.html">問題集</a>
-      <a href="css_quizu_3.html">次の問題</a>
+      <a href="css_quiz_5.html">次の問題</a>
     </div>
   </div>
   <footer>footer</footer>

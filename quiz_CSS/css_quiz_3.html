@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML/問</title>
+  <title>CSS/問</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -24,21 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3> 画像を表示するための<br>HTML要素を選択してください</h3>
+      <h3>CSSのbox-shadowプロパティの値の指定方法として間違っているものを選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
       <input type="radio" name="answer" value="correct" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">&lt;img&gt;</label><br>
+      <label for="quiz-answer1" class="quiz-label">box-shadow: 1px;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">&lt;image&gt;</label><br>
+      <label for="quiz-answer2" class="quiz-label">box-shadow: 1px 1px;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">&lt;picture&gt;</label><br>
+      <label for="quiz-answer3" class="quiz-label">box-shadow: 3px 3px 6px 2px;</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">&lt;src&gt;</label><br>
+      <label for="quiz-answer4" class="quiz-label">box-shadow: 3px 3px 6px 2px inset;</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -50,33 +50,33 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        &lt;img&gt;
-        <div>画像を表示するためのHTML要素になります</div>
+        :box-shadow: 1px;
+        <div>box-shadowプロパティの値の数値は、2個・3個・4個のいずれかを<br>連続して指定する必要があります<br>よって、数値が1つしか指定されていないAは間違いななので正解です</div>
       </div>
       <div class="quiz-explanation-content">
-        &lt;image&gt;
-        <div>使用できません</div>
+        box-shadow: 1px 1px;
+        <div>不正解です</div>
       </div>
       <div class="quiz-explanation-content">
-        &lt;picture&gt;
-        <div>使用できません</div>
+        box-shadow: 3px 3px 6px 2px;
+        <div>不正解です</div>
       </div>
       <div class="quiz-explanation-content">
-        &lt;src&gt;
-        <div>使用できません</div>
+        box-shadow: 3px 3px 6px 2px inset;
+        <div>不正解です</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
-          <a href="https://creatorquest.jp/lessons/html/img/#google_vignette">CreatorQuest</a><br>
+          <a href="https://html5exam.jp/measures/lv1_2.html">Web資格なら「HTML5プロフェッショナル認定試験」</a><br>
         </div>
       </div>
     </div>
 
     <div class="quiz-navigation">
-      <a href="html_quizu_3.html">前の問題</a>
+      <a href="css_quiz_2.html">前の問題</a>
       <a href="question_selection_page.html">問題集</a>
-      <a href="html_quizu_5.html">次の問題</a>
+      <a href="css_quiz_4.html">次の問題</a>
     </div>
   </div>
   <footer>footer</footer>
