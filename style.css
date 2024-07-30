@@ -474,21 +474,86 @@ footer {
   text-align: center;
   font-weight: bold;
   margin: auto;
-  height: 250px;
-  width: 250px;
-  font-size: 20px;
 }
 
 .format-button:hover {
   background-color: #f0f0f0;
 }
 
-@media (min-width: 768px) {
+.business-button{
+  border: 5px solid #FFC1C1;
+}
+
+.business-button:hover{
+  border: 5px solid #ff6767;
+}
+
+.css-button{
+  border: 5px solid #EEEF94;
+}
+
+.css-button:hover{
+  border: 5px solid #fdff71;
+}
+
+.html-button{
+  border: 5px solid #A8A1FC;
+}
+
+.html-button:hover{
+  border: 5px solid #4c3cff;
+}
+
+.javascript-button{
+  border: 5px solid #acffa7;
+}
+
+.javascript-button:hover{
+  border: 5px solid #8EDB88;
+}
+
+.ruby-button{
+  border: 5px solid #9D9A9A;
+}
+
+.ruby-button:hover{
+  border: 5px solid #626262;
+}
+
+/*スマホ用メディアクエリ*/
+@media (max-width: 375px){
+  .format-button {
+    height: 30svh;
+    width: 55vw;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 376px){
+  .format-button {
+    height: 30svh;
+    width: 65vw;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px){
+  .format-button {
+    height: 35svh;
+    width: 50vw;
+    font-size: 26px;
+  }
+}
+/*パソコン用メディアクエリ*/
+@media (min-width: 769px) {
   .format-main {
     flex-direction: row;
   }
 
   .format-button {
+    height: 250px;
+    width: 250px;
+    font-size: 20px;
     margin: 70px;
   }
 }
