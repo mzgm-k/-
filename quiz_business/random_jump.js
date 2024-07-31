@@ -4,6 +4,9 @@ const business = new Array(
     "business_quiz_3.html",
     "business_quiz_4.html",
     "business_quiz_5.html",
+    "business_quiz_6.html",
+    "business_quiz_7.html",
+    "business_quiz_8.html"
     // 追加した出題ページの相対パスを追加してください。
 );
 
