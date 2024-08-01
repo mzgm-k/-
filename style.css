@@ -503,7 +503,7 @@ footer {
   border: none;
   text-align: center;
   font-weight: bold;
-  margin:35px auto 0px;
+  margin:0px auto 35px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
