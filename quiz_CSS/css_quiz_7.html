@@ -24,31 +24,21 @@
   </header>
   <div class="quiz-main">
     <div class="quiz-title">
-      <h3>次のCSSで表とセルの角を丸くしようとしたが、<br>どのブラウザでも角は丸くならなかった<br>原因の説明として正しいものを選択してください</h3>
-      <div class="quiz-samplecode">
-        <div class="quiz-samplecode-title">CSS</div>
-        <div class="quiz-samplecode-main">
-          table, th, td {<br>
-          &nbsp;&nbsp;border: 1px solid;<br>
-          &nbsp;&nbsp;border-radius: 10px;<br>
-          &nbsp;&nbsp;border-collapse: collapse;<br>
-        }
-        </div>
-      </div>
+      <h3>横幅を決めるwidthで指定できないものを選択してください</h3>
     </div>
 
     <div class="quiz-answer" id="quiz">
       <input type="radio" name="answer" value="" id="quiz-answer1">
-      <label for="quiz-answer1" class="quiz-label">Chromiumを採用しているブラウザでは表の角は丸くならない</label><br>
+      <label for="quiz-answer1" class="quiz-label">auto</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer2">
-      <label for="quiz-answer2" class="quiz-label">borderの指定で色の値がないためエラーとなっている</label><br>
+      <label for="quiz-answer2" class="quiz-label">%</label><br>
 
       <input type="radio" name="answer" value="correct" id="quiz-answer3">
-      <label for="quiz-answer3" class="quiz-label">border-collapseの値が「collapse」だとborder-radiusは無効になる</label><br>
+      <label for="quiz-answer3" class="quiz-label">max</label><br>
 
       <input type="radio" name="answer" value="" id="quiz-answer4">
-      <label for="quiz-answer4" class="quiz-label">border-radiusをセルに対して指定するとtable要素への指定は無効になる</label><br>
+      <label for="quiz-answer4" class="quiz-label">px</label><br>
       <!-- 正解の選択肢のvalueにcorrectを入力してください -->
     </div>
 
@@ -60,41 +50,36 @@
 
     <div id="quiz-explanation">
       <div class="quiz-explanation-content">
-        Chromiumを採用しているブラウザでは表の角は丸くならない
-        <div>不正解です</div>
+        auto
+        <div>widthの値をとくに指定せずにautoになっていると、要素の幅は基本的に横全体にに広がります</div>
       </div>
       <div class="quiz-explanation-content">
-        borderの指定で色の値がないためエラーとなっている
-        <div>不正解です</div>
+        %
+        <div>親要素の幅に対する比率で幅が決まります</div>
       </div>
       <div class="quiz-explanation-content">
-        border-collapseの値が「collapse」だとborder-radiusは無効になる
-        <div>border-collapseの値を「separate」に変えると<br>（もしくはborder-collapseの行を削除すると）角は丸くなります。そのため正解です</div>
+        max
+        <div>指定できず、反応しません</div>
       </div>
       <div class="quiz-explanation-content">
-        border-radiusをセルに対して指定するとtable要素への指定は無効になる
-        <div>不正解です</div>
+        px
+        <div>指定したピクセル数分、横に広がります</div>
       </div>
       <div class="quiz-explanation-reference">
           参考文献
         <div class="reference-site">
-          <a href="https://html5exam.jp/measures/lv1_2.html">Web資格なら「HTML5プロフェッショナル認定試験」</a><br>
+          <a href="https://saruwakakun.com/html-css/basic/width-height#section2">サルワカ</a><br>
         </div>
       </div>
     </div>
 
     <div class="quiz-navigation">
-      <a href="css_quiz_5.html">前の問題</a>
+      <a href="css_quiz_6.html">前の問題</a>
       <a href="question_selection_page.html">問題集</a>
-      <a href="css_quiz_7.html">次の問題</a>
-    </div>
-
-    <div class="quiz-random">
-      <a href="javascript:random_jump();">ランダム出題</a>
+      <a href="css_quiz_8.html">次の問題</a>
     </div>
   </div>
   <footer>footer</footer>
   <script src="../JS/quiz.js"></script>
-  <script src="random_jump.js"></script>
 </body>
 </html>

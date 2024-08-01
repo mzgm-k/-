@@ -4,7 +4,9 @@ const css = new Array(
     "css_quiz_3.html",
     "css_quiz_4.html",
     "css_quiz_5.html",
-    "css_quiz_6.html"
+    "css_quiz_6.html",
+    "css_quiz_7.html",
+    "css_quiz_8.html"
     // 追加した出題ページの相対パスを追加してください。
 );
 
