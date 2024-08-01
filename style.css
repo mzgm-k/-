@@ -195,6 +195,26 @@ footer {
 /*------------------------------------------------------------------------------ 
   トップページ
 ------------------------------------------------------------------------------ */
+.top-business:hover {
+  background-color: #f0f0f0;
+}
+
+.top-css:hover {
+  background-color: #f0f0f0;
+}
+
+.top-html:hover {
+  background-color: #f0f0f0;
+}
+
+.top-java:hover {
+  background-color: #f0f0f0;
+}
+
+.top-ruby:hover {
+  background-color: #f0f0f0;
+}
+
 /* スマホ画面用のCSS*/
 @media screen and (max-width: 768px) {
   .top-body{
@@ -235,6 +255,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-html{
     height: 11svh;
@@ -247,6 +268,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-css{
     height: 11svh;
@@ -258,6 +280,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-java{
     height: 11svh;
@@ -269,6 +292,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-ruby{
     height: 11svh;
@@ -280,6 +304,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-link{
     font-size: 6vw;
@@ -333,6 +358,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-html{
     height: 150px;
@@ -345,6 +371,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-css{
     height: 150px;
@@ -357,6 +384,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-java{
     height: 150px;
@@ -368,6 +396,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-ruby{
     height: 150px;
@@ -379,6 +408,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .top-link{
     font-size: 3vw;
@@ -474,6 +504,7 @@ footer {
   text-align: center;
   font-weight: bold;
   margin:35px auto 0px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .format-button:hover {
