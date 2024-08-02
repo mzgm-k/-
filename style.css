@@ -515,40 +515,20 @@ footer {
   border: 5px solid #FFC1C1;
 }
 
-.business-button:hover{
-  border: 5px solid #ff6767;
-}
-
 .css-button{
   border: 5px solid #EEEF94;
-}
-
-.css-button:hover{
-  border: 5px solid #fdff71;
 }
 
 .html-button{
   border: 5px solid #A8A1FC;
 }
 
-.html-button:hover{
-  border: 5px solid #4c3cff;
-}
-
 .javascript-button{
   border: 5px solid #acffa7;
 }
 
-.javascript-button:hover{
-  border: 5px solid #8EDB88;
-}
-
 .ruby-button{
   border: 5px solid #9D9A9A;
-}
-
-.ruby-button:hover{
-  border: 5px solid #626262;
 }
 
 /*スマホ用メディアクエリ*/
